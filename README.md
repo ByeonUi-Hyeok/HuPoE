@@ -2,9 +2,9 @@
 Human Pose Estimation Project with PyQt, Pyside
 
 | **개발인원**   |`변의혁`, `구태완`|
-| :---:          |        :---:          | 
+| :---: | :---: | 
 | **Build Status** | ㅇㅇ |
-
+| **Build Status** | ㅇㅇ |
 
 
 제품 소개/ 고용량 파일 링크 / gif 추가살것
