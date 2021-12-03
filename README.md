@@ -7,7 +7,11 @@ Human Pose Estimation Project with PyQt, Pyside
 | **사용기술** | `Python`,`Tensorflow`,`Keras`,`Mediapipe`,`Dlib`,`PyQt5`,`Pyside2` |
 | **버전** | v0.0 |
 
-제품 소개/ 고용량 파일 링크 / gif 추가살것
-큰용량은 구글드라이브로업로드할것
-docs 폴더만들고 파워포인트 그림파일로만들어서업로드
-DOCS폴더 X 동영상 >GIF 변환
+## 목차
+1. [개요](#개요)
+2. [내용](#내용)
+3. [결과](#결과)
+
+## 개요
+## 내용
+## 결과
