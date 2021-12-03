@@ -3,7 +3,7 @@ Human Pose Estimation Project with PyQt, Pyside
 
 | **개발인원**   |`변의혁`, `구태완`|
 | :---: | :---: | 
-| **포트폴리오 링크** | !(https://github.com/ByeonUi-Hyeok/HuPoE/tree/main/img/link.svg)](https://www.miricanvas.com/v/1ojqh0) |
+| **포트폴리오 링크** | ![(https://github.com/ByeonUi-Hyeok/HuPoE/tree/main/img/link.svg)](https://www.miricanvas.com/v/1ojqh0) |
 | **사용기술** | `파이썬`,`텐서플로`,`파이썬`,`텐서플로`,`파이썬`,`텐서플로`,`파이썬`,`텐서플로` |
 | **버전** | v0.0 |
 
