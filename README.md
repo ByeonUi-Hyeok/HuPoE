@@ -1,8 +1,8 @@
 # HuPoE
 Human Pose Estimation Project with PyQt, Pyside
 
-| **개발인원**   |`김 민(스크럼 매니저)`           |`변의혁`           |`구태완`         |
-| :---:            | :---:            | :---:            | :---:            |
+| **개발인원**   |`김 민(스크럼 매니저)`           |
+| :---:            | 
 | **Build Status** | ㅇㅇ | ㅇㅇ | ㅇㅇ |
 
 
