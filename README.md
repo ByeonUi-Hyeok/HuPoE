@@ -1,7 +1,7 @@
 # HuPoE
 Human Pose Estimation Project with PyQt, Pyside
 
-| **개발인원**   |`변의혁`, `구태완`|
+| **개발자**   |`변의혁`, `구태완`|
 | :---: | :---: | 
 | **포트폴리오 링크** | https://www.miricanvas.com/v/1ojqh0 |
 | **사용기술** | `Python`,`Tensorflow`,`Keras`,`Mediapipe`,`Dlib`,`PyQt5`,`Pyside2` |
