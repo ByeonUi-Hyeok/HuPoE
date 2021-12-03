@@ -11,4 +11,4 @@ Human Pose Estimation Project with PyQt, Pyside
 큰용량은 구글드라이브로업로드할것
 docs 폴더만들고 파워포인트 그림파일로만들어서업로드
 DOCS폴더 X 동영상 >GIF 변환
-![913-9130297_chain-link-icon-link-icon](https://user-images.githubusercontent.com/84761763/144570081-6ee21df4-04e6-4f27-b67d-74b22c2eda8a.png){: width="50" height="50"}
+![913-9130297_chain-link-icon-link-icon](https://user-images.githubusercontent.com/84761763/144570081-6ee21df4-04e6-4f27-b67d-74b22c2eda8a.png){: width="100%" height="100%"}
