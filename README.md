@@ -3,7 +3,7 @@ Human Pose Estimation Project with PyQt, Pyside
 
 | **개발인원**   |`변의혁`, `구태완`|
 | :---: | :---: | 
-| **포트폴리오 링크** | ![913-9130297_chain-link-icon-link-icon](https://user-images.githubusercontent.com/84761763/144569246-144aa657-656f-46f4-8e09-70790f94fb94.png){: width="50" height="50"}(https://www.miricanvas.com/v/1ojqh0) |
+| **포트폴리오 링크** | https://www.miricanvas.com/v/1ojqh0 |
 | **사용기술** | `Python`,`Tensorflow`,`Keras`,`Mediapipe`,`Dlib`,`PyQt5`,`Pyside2` |
 | **버전** | v0.0 |
 
