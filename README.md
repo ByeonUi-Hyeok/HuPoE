@@ -32,7 +32,11 @@
  - meidapipe 이용 사람의 관절 추정
  - Dlib이용 사람얼굴 구분하여 신원특정
  - PyQt5, Pyside2 이용 로컬에서 이용가능한 프로그램 제작
-### 
+### 파일 구성
+#### test.py
+- pass
+#### test2.py
+- pass
 
 ## 결과
 
