@@ -5,7 +5,7 @@
 | **부제**   |Human Pose Estimation Project with PyQt, Pyside|
 | **개발자**   |`변의혁`, `구태완`|
 | **개발기간**   |`2021.09` ~ `2021.11 `| 
-| **포트폴리오 링크** | https://www.miricanvas.com/v/1ojqh0 |
+| **포트폴리오 링크** | [포트폴리오 보기](https://www.miricanvas.com/v/1ojqh0) |
 | **사용기술** | `Python`,`Tensorflow`,`Keras`,`Mediapipe`,`Dlib`,`PyQt5`,`Pyside2` |
 | **버전** | v0.0 |
 
