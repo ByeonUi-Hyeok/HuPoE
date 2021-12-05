@@ -27,7 +27,7 @@
  - pass
  - [학습된 데이터 셋](https://drive.google.com/file/d/1GcxSzzDbk1N9Z6yUkTPrt-YcfjGv6lJJ/view?usp=sharing) 다운 받아 파일 내에 압축 풀어서 사용
  - models 폴더는 해당폴더에 놓고 사용, font 내 폴더는 windows/font에 복사하거나 실행하여서 사용
- - 학습결과\n
+ - 학습결과
 
 ![20211205_182157](https://user-images.githubusercontent.com/84761763/144740898-6352bf75-363d-4c0f-bdb0-422806e166e4.png)
 
