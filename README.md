@@ -55,6 +55,8 @@
  ![main](https://user-images.githubusercontent.com/84761763/144741765-7833dc0b-bb97-4665-b899-c6ab58ed7583.png)
  - db.py에서 만든 데이터베이스를 기반으로 쿼리문을 조회하여 아이디와 비밀번호가 존재하는 것인지 확인한 후 로그인 합니다.
  - 1차인증
+ - 초기 ID / PW
+    - admin / 1234
 #### face_r.py
  ![1](https://user-images.githubusercontent.com/84761763/144741535-4197f07f-99c0-4318-b3c3-51e03b579430.png)
  - 얼굴인식 페이지
