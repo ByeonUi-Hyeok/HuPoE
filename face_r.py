@@ -22,14 +22,16 @@ class Thread(QThread):
     imageUpdate = pyqtSignal(QImage)
     def run(self):
         self.ThreadActive = True
-        self.cap = cv2.VideoCapture('D:/Human_Pose_Estimation/test2.mp4') # 0 웹캠
+        #self.cap = cv2.VideoCapture('D:/Human_Pose_Estimation/0test2.mp4') # 0 웹캠
+        self.cap = cv2.VideoCapture(0) # 0 웹캠
         self.detector = dlib.get_frontal_face_detector()
         self.sp = dlib.shape_predictor('models/shape_predictor_68_face_landmarks.dat')
         self.facerec = dlib.face_recognition_model_v1('models/dlib_face_recognition_resnet_model_v1.dat')
         self.descs = np.load('img/descs.npy',allow_pickle=True)[()] # ,allow_pickle=True
         while self.ThreadActive :
             ret, img = self.cap.read()
-            #img = cv2.cvtColor(img, cv2.COLOR_RGB2BGR)       # 이거하면 색깔 요상하게나오넹..
+            #img = cv2.flip(img, 1)
+            #img = cv2.cvtColor(img, cv2.COLOR_RGB2BGR)      
             img = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
             dets = self.detector(img, 1)
             for k, d in enumerate(dets):

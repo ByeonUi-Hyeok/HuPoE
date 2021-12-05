@@ -13,9 +13,10 @@ from PyQt5.QtGui import QImage, QPixmap
 #------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 class Thread(QThread): #
     imageUpdate = pyqtSignal(QImage)
-    def run(self, selectcamera='D:/Human_Pose_Estimation/test2.mp4'):
+    def run(self, selectcamera=0):
         self.ThreadActive = True
         cap = cv2.VideoCapture(selectcamera)
+        #cap = cv2.VideoCapture('D:/Human_Pose_Estimation/0test2.mp4')
         actions = ['walking', 'sitting', 'reposing']
         seq_length = 30
         colors = [(245,117,16), (117,245,16), (16,117,245)]
@@ -40,7 +41,7 @@ class Thread(QThread): #
         detector = dlib.get_frontal_face_detector()
         sp = dlib.shape_predictor('models/shape_predictor_68_face_landmarks.dat')
         facerec = dlib.face_recognition_model_v1('models/dlib_face_recognition_resnet_model_v1.dat')
-        koo = cv2.imread('img/koo.jpg')
+        koo = cv2.imread('img/koo.jpg') # 얼굴인식에 필요한 변수 본인 사진 넣으면 됨
         koo = cv2.resize(koo,(150, 150))
         byeon = cv2.imread('img/byeon1.jpg')
         byeon = cv2.resize(byeon,(150, 150))
@@ -48,9 +49,9 @@ class Thread(QThread): #
         # 뼈다귀 --------------------------------------------------------------------------------
         while self.ThreadActive:#####수정#####
             ret, img = cap.read()
-            img0 = img.copy()
+            #img0 = img.copy() ########## 판단 요망########
 
-            img = cv2.flip(img, 1)
+            img = cv2.flip(img, 1) ########## 판단 요망########
             img = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
             result = pose.process(img)
             #img = cv2.cvtColor(img, cv2.COLOR_RGB2BGR) ########## 판단 요망########
@@ -938,6 +939,18 @@ class Ui_MainWindow_final(object):
         QtCore.QMetaObject.connectSlotsByName(MainWindow_final)
 
 
+
+        ### ==> MINIMIZE
+        #self.btn_minimize.clicked.connect(lambda: self.showMinimized())
+
+        ## ==> MAXIMIZE/RESTORE
+        #self.btn_maximize_restore.clicked.connect(lambda: UIFunctions.maximize_restore(self))
+
+        ## SHOW ==> CLOSE APPLICATION
+        self.btn_close.clicked.connect(lambda: self.Ui_MainWindow_final.close())
+
+
+
         #####
         self.Thread = Thread()
         self.Thread.start()
@@ -960,7 +973,7 @@ class Ui_MainWindow_final(object):
         self.btn_open_file.setText(_translate("MainWindow_final", "Open File"))
         self.btn_new.setText(_translate("MainWindow_final", "New"))
         self.btn_save.setText(_translate("MainWindow_final", "Save"))
-        self.label_user_icon.setText(_translate("MainWindow_final", "TW"))
+        self.label_user_icon.setText(_translate("MainWindow_final", "UH"))
         self.btn_settings.setText(_translate("MainWindow_final", "Open File"))
         self.label_6.setText(_translate("MainWindow_final", "HOMEE"))
         self.label_8.setText(_translate("MainWindow_final", "Second"))
