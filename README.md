@@ -29,7 +29,7 @@
  - models 폴더는 해당폴더에 놓고 사용, font 내 폴더는 windows/font에 복사하거나 실행하여서 사용
  - 학습결과
 
-![20211205_182157](https://user-images.githubusercontent.com/84761763/144740898-6352bf75-363d-4c0f-bdb0-422806e166e4.png)
+![20211205_182457](https://user-images.githubusercontent.com/84761763/144740993-b4b5e421-9381-4027-a6aa-afdef566c84f.png)
 
 
 ## 내용
