@@ -73,3 +73,7 @@
 
 ## 결과
  - [시뮬레이션 동영상 링크](https://youtu.be/lE7QpYeMWs0) 
+ - 개발 스택
+
+ ![로컬 스택](https://user-images.githubusercontent.com/84761763/144742637-9a6d2284-e31f-4cc5-95a3-3709df1d2c3e.png)
+
